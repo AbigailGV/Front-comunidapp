@@ -18,7 +18,7 @@ export const Login = () => {
 
 	return (
 		<div className="App">
-			<h1>Inicia Sesión</h1>
+			<h1>Inicia Sesión </h1>
 			<Form onSubmit={(e) => formHandler(e)}>
 				<Form.Group className="mb-3" controlId="formBasicEmail">
 					<Form.Label>Email address</Form.Label>
