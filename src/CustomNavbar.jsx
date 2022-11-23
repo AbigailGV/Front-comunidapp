@@ -11,8 +11,8 @@ export const CustomNavbar = () => {
 			<Container className="">
 				<Navbar.Brand href="/">ComunidApp</Navbar.Brand>
 				<Nav className="">
-					<Nav.Link href="/yourexchanges">Your exchanges</Nav.Link>
-					<Nav.Link href="/yourresources">Your resources</Nav.Link>
+					<Nav.Link href="/your-exchanges">Your exchanges</Nav.Link>
+					<Nav.Link href="/your-resources">Your resources</Nav.Link>
 					<Nav.Link href="/profile">
 						<BiUser />
 					</Nav.Link>
