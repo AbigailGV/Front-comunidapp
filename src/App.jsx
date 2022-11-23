@@ -3,9 +3,8 @@ import {Route, Routes} from 'react-router-dom'
 
 import {Login} from "./Login"
 import {Home} from "./Home"
-
-const YourExchanges = () => <h2>Your Exchanges</h2>
-const YourResources = () => <h2>Your Resources</h2>
+import {YourExchanges} from "./YourExchanges"
+import {YourResources} from "./YourResources"
 
 function App()  {
   return (
