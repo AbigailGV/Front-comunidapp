@@ -100,7 +100,64 @@ const TabFood = () => {
 const TabDrugs = () => {
   return (
     <div>
-      <h1>Drugs Tab</h1>
+      <div className="cards">
+        <Card style={{ width: "18rem" }}>
+          <Card.Img
+            variant="top"
+            src="https://chedrauimx.vtexassets.com/arquivos/ids/9033220/7501007533872_00.jpg?v=638047777917600000"
+          />
+          <Card.Body>
+            <Card.Title>Tylenol</Card.Title>
+            <Card.Text>
+              I have Tylenol ready to exchange for some alcohol.
+            </Card.Text>
+            <Button variant="primary">Make exchange</Button>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: "18rem" }}>
+          <Card.Img
+            variant="top"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY6l3wEf9TgVBqkB3cTrZkPB0GDtS0mgkRQg&usqp=CAU"
+          />
+          <Card.Body>
+            <Card.Title>Alcohol</Card.Title>
+            <Card.Text>
+              I have 2 bottles of alcohol that I would like to exchange for
+              tylenol.
+            </Card.Text>
+            <Button variant="primary">Make exchange</Button>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: "18rem" }}>
+          <Card.Img
+            variant="top"
+            src="https://http2.mlstatic.com/D_NQ_NP_874179-MLM47986042458_102021-O.jpg"
+          />
+          <Card.Body>
+            <Card.Title>Gauze</Card.Title>
+            <Card.Text>
+              I have 5 gauzes that I would like to exchange for some tylenol.
+            </Card.Text>
+            <Button variant="primary">Make exchange</Button>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: "18rem" }}>
+          <Card.Img
+            variant="top"
+            src="https://www.fahorro.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/7/5/7501287610478_.jpg"
+          />
+          <Card.Body>
+            <Card.Title>Advil</Card.Title>
+            <Card.Text>
+              I have advil that I would like to exchange for some gauzes.
+            </Card.Text>
+            <Button variant="primary">Make exchange</Button>
+          </Card.Body>
+        </Card>
+      </div>
     </div>
   );
 };
@@ -108,7 +165,50 @@ const TabDrugs = () => {
 const TabOther = () => {
   return (
     <div>
-      <h1>Other Tab</h1>
+      <div className="cards">
+        <Card style={{ width: "18rem" }}>
+          <Card.Img
+            variant="top"
+            src="https://maglitemexico.com.mx/wp-content/uploads/2021/06/maglite_incandescentes_1024x600.png"
+          />
+          <Card.Body>
+            <Card.Title>Lanterns</Card.Title>
+            <Card.Text>
+              I have 5 lanterns ready to exchange for some clothes.
+            </Card.Text>
+            <Button variant="primary">Make exchange</Button>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: "18rem" }}>
+          <Card.Img
+            variant="top"
+            src="https://m.media-amazon.com/images/I/71P28O72LPL._AC_SL1500_.jpg"
+          />
+          <Card.Body>
+            <Card.Title>Batteries</Card.Title>
+            <Card.Text>
+              I have 10 betteries that I would like to exchange for some
+              lanterns.
+            </Card.Text>
+            <Button variant="primary">Make exchange</Button>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: "18rem" }}>
+          <Card.Img
+            variant="top"
+            src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Folding_table.jpg"
+          />
+          <Card.Body>
+            <Card.Title>Table</Card.Title>
+            <Card.Text>
+              I have 1 table that I would like to exchange for two chairs.
+            </Card.Text>
+            <Button variant="primary">Make exchange</Button>
+          </Card.Body>
+        </Card>
+      </div>
     </div>
   );
 };
