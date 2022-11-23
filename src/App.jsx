@@ -2,8 +2,8 @@ import './App.css'
 import {Route, Routes} from 'react-router-dom'
 
 import {Login} from "./Login"
+import {Home} from "./Home"
 
-const Home = () => <h2>Home</h2>
 const YourExchanges = () => <h2>Your Exchanges</h2>
 const YourResources = () => <h2>Your Resources</h2>
 
