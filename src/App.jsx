@@ -11,6 +11,7 @@ import {Home} from "./Home";
 import {YourExchanges} from "./YourExchanges";
 import {YourResources} from "./YourResources";
 import {Profile} from "./Profile";
+import {Details} from "./Details"
 
 function App() {
 	return (
@@ -21,7 +22,9 @@ function App() {
 				<Route path="/your-exchanges" element={<YourExchanges />}></Route>
 				<Route path="/your-resources" element={<YourResources />}></Route>
 				<Route path="/profile" element={<Profile />}></Route>
+				<Route path="/details" element={<Details/>}></Route>
 				<Route path="/*" element={<h1> 404 </h1>}></Route>
+				
 			</Routes>
 		</div>
 	);

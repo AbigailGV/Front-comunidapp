@@ -44,7 +44,7 @@ const TabFood = () => {
               I have 30 bottles of water ready to exchange for some food. It can
               be 3 bananas or one tuna.
             </Card.Text>
-            <Button variant="primary">Make exchange</Button>
+            <Button variant="primary" href='/details'>Make exchange</Button>
           </Card.Body>
         </Card>
 
